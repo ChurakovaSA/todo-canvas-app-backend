@@ -5,7 +5,10 @@ theme: /
             [~напоминание|~заметка|~задание|~задача]
             $AnyText::anyText
             
+        random:
+            a: Добавлено!
+            a: Записано!
+            
         script:
             addNote($parseTree._anyText, $context);
-        
-        go!: /ДобавленаНоваяЗапись
+            addSuggestions(["Добавь задачу купить машину"], $context);
