@@ -9,6 +9,7 @@ theme: /
             a: Добавлено!
             a: Записано!
             a: Зафиксировано!!
+            a: Done!
             
         script:
             addNote($parseTree._anyText, $context);
